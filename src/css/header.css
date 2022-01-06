@@ -1,0 +1,80 @@
+.hero {
+    background: url(/src/assets/background-home-image.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0 9.5vw;
+}
+
+.button {
+    padding: 0.7rem 2.8rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.4rem 0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.logo__icon {
+    width: 3.1rem;
+}
+
+.nav-bar {
+    justify-content: space-evenly;
+}
+
+.nav-bar__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 2rem;
+}
+
+.nav-bar__item {
+    color: white;
+    font-size: 20px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-container__column:nth-child(1) {
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+    margin-top: 22.8rem;
+}
+
+.hero-container__column-small-text {
+    color: white;
+}
+
+.hero-container__column:nth-child(2) {
+    width: 33%;
+}
+
+.hero-container__column-title {
+    margin: 0 0 5rem 0;
+    font-size: 52px;
+    color: white;
+}
+
+.button--primary {
+    background: white;
+}
