@@ -1,0 +1,34 @@
+:root {
+  --dark-blue: #545871;
+
+  --grayish: #9597a6;
+  --grayish-light: #dadbe6;
+  --very-grayish-light: #f0f1f7;
+
+  --red: #b8817d;
+  --red-light: #ebd0ce;
+
+  --pink: #f7eceb;
+  --dark-pink: #e6dbda;
+}
+
+@font-face {
+  font-family: 'Gibson';
+  src: url('../assets/Font/Gibson/Gibson-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gibson';
+  src: url('../assets/Font/Gibson/Gibson-SemiBold.ttf') format('ttf');
+  font-weight: semibold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gibson';
+  src: url('../assets/Font/Gibson/Gibson-Bold.ttf') format('ttf');
+  font-weight: bold;
+  font-style: normal;
+}
